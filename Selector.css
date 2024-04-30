@@ -1,0 +1,94 @@
+.first{
+    color: #4f01e9;
+}
+
+
+.standalone{
+    color: #e96201;
+    font-weight: 800;
+}
+
+.second{
+    color: #e96201;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn2{
+background-color: #e96201;
+font-weight: 700;
+color: #ffffff;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+padding-left: 1rem;
+padding-right: 1rem;
+border-radius: 0.5rem;
+border: none;
+box-shadow: 0.2rem 0.2rem #bbbbbc;
+transform: translateY(50px);
+transition: all 10s ease-in-out;
+
+}
+
+
+div p{
+    color: #4f01e9;
+}
+
+/* This is the direct change */
+div > p{
+    color: #038719;
+}
+
+/* This is for a particular decendant */
+
+div span p{
+
+    color: #036a87;
+}
+
+/* This is for all the decendant */
+
+div p{
+
+    color: #d6109e;
+}
+
+------ Pseudo  Selector -------
+
+/* This is for the firs child alone */
+
+div > p:first-child{
+
+    color: #ff0000;
+}
+
+/* This is for the firs child alone (it the same to get the missing element) */
+
+div > p:nth-child(3){
+
+    color: #591313;
+}
+
+/* This is to add HOVER EFFECT on an element */
+/* 
+.btn1:active{
+    background-color: #3a032a;
+    color: #ffffff;
+    transition: all 2s;
+    transform: scale(1.3);
+     transform: rotate(360deg); 
+    transform: translateY(0);
+
+} */
+
+.btn2:hover{
+    background-color: #3a032a;
+    color: #ffffff;
+    transition: all 10s ease-in-out;  
+    transform: translateY(0);
+
+}
+
+
+
+

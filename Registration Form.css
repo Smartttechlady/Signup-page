@@ -1,0 +1,135 @@
+body{
+    background-color: #cfd4d4;
+    font-family:sans-serif;
+    overflow:;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+}
+
+.split-screen{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.left{
+    width: 5%;
+    height: 5%;
+
+    }
+
+.left, .right{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.right{
+    .Signup-box{
+        width: 50vw;
+        height:500vh;
+        margin: auto;
+        background-color: #ffffff;
+        border-radius: 0rem;
+        padding-top: 1rem;
+        padding-left:5rem ;
+        padding-right: 5rem;
+        padding-bottom: 29rem;
+        box-sizing: content-box;
+    }
+}
+
+
+
+h1{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+
+h4{
+text-align: center;
+font-size: 1rem;
+
+}
+
+form{
+
+    width: 5rem;
+    
+}
+
+form label{
+    display: ;
+    font-size: 0.9rem;
+    
+
+    
+    
+}
+
+form input{
+    width: 300%;
+    padding:0.5rem;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+
+    
+    
+}
+
+
+p{
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    
+    }
+
+
+  .image{
+   justify-content: space-between;
+    display: flex;
+    margin: 1rem;
+  }
+
+.legal-terms{
+text-align: center;
+display: flex;
+
+}
+
+
+
+button{
+
+    width: 320%;
+    height: 40%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color:#0459c1 ;
+    border-radius: 0.2rem;
+    border: none;
+    box-shadow: 0.1rem 0.1rem 0.4rem #78797b; 
+    
+    
+}
+
+
+
+.para-2{
+    text-align: center;
+    margin: 10px;
+    display: flex;
+}
+

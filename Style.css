@@ -1,0 +1,61 @@
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    background-color: aquamarine;
+}
+
+
+h2{
+    color: rgb(20, 67, 120);
+    font-size: 100px;
+    background-color: aquamarine;
+}
+
+
+
+
+h3{
+    color: rgba(200, 0, 0, 0.5);
+    font-size: 100px;
+    background-color: aquamarine;
+}
+
+
+h4{
+    color: hsl(270, 50%, 50%);
+    font-size: 100px;
+    background-color: aquamarine;
+}
+
+
+
+h5{
+    color: #C81006;
+    font-size: 100px;
+    background-color: aquamarine;
+}
+
+h1{
+    background-color: #C81006;
+    width:50vw ;
+    height: 20vh;
+    padding: 5rem 3rem 2rem 1rem;
+    margin: 5rem;
+    overflow-x: auto;
+    border: 0.5rem dotted #0610c8;
+    outline: 1rem solid #010217;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    box-shadow: 2rem 2rem 1rem #0610c8;
+    
+}
+
+button{
+    width: 100%;
+}
+
+input{
+    width: 50vw;
+    display: block;
+    margin: auto;
+}

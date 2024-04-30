@@ -1,0 +1,137 @@
+/* h2 {
+    
+    background:linear-gradient(to right,#f68080, #fbc2c2, #ff0b0b, #5b0101); 
+    background: radial-gradient(circle, #c33206, #eda36b, #fa7b7b, #fdb1b1);
+    height: 10vh;
+
+} */
+
+/* h6{
+background-image: url(./IMAGES/coffee\ shop\ 2.jpg);
+width: 100vw;
+height: 700px;
+background-repeat:no-repeat; 
+background-size: cover;
+background-position: center;
+}  */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;;
+}
+
+
+body{
+    min-width: 100vw;
+    height:500px;
+    background: linear-gradient(to right, #24273f, #2d2e3e, #191b31), url(./IMAGES/coffee\ shop\ 2.jpg) no-repeat ;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000000;
+    /* backdrop-filter: blur(50%); */
+    box-shadow: 0  0 0.2rem 0#eda36b;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index:100; 
+}
+
+.logo{
+    font-size:1.5rem;
+    color: #f2f2f2;
+    font-weight: 700;
+    font-family: cursive;
+    
+}
+
+nav a{
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #f2f2f2;
+    margin-left: 1rem;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  
+}
+    
+ .h6{
+    font-size: 2rem;
+    font: weight 700px;
+    color: #f2f2f2;
+   margin-top: 35%;
+   position: absolute;
+   
+   
+ 
+  
+  
+    
+ }   
+
+ .p{
+    font-size: 0.8rem;
+    font: weight 200px;
+    color: #f2f2f2;
+    width: 50%;
+    position: absolute;
+    margin-top:43%;
+    line-height: 1.2rem;
+    
+  
+
+
+ }
+
+
+
+button{
+    padding: 0.8rem;
+    color: #191b31;
+    font-weight: 800;
+    font-size: 1rem;
+    position: center;
+    background-color: #eda36b;
+   
+   border-radius: 0.5rem;
+   border:;
+   box-shadow:0.5rem 0.5rem 2rem #412006;
+  
+   position: absolute;
+   margin-top: 60rem;
+ 
+   
+  
+
+    
+}
+
+button:hover{
+    background-color: transparent;
+    color: #eda36b;
+    border-color: #eda36b;
+    border-width: 0.2rem;
+
+}
+
+nav a:hover{
+    color: #eda36b;
+    transition: color 3ms ease-in-out ;
+}

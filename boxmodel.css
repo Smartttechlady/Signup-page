@@ -1,0 +1,26 @@
+
+h3{
+    background-color: #feb5f4;
+    width: 50vw;
+    height:10vh;
+    overflow: scroll;
+}
+
+
+button{
+    background-color: #6d0475;
+    /* padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; */
+
+    padding: 0.5rem 2rem;
+    margin: auto;
+    color: #ffffff;
+    border: 0.3rem #f66fd4 solid;
+    outline: 0.3rem #371e31 solid;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 1rem #fd97cc;
+
+
+}

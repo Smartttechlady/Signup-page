@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #d3d3d3;
+}
+
+.front-bg{
+    background-image: url(./IMAGES/CIRCLE.svg);
+    background-size: cover;
+    height: 50vh;
+    text-align: center;
+   
+
+
+
+}
+
+strong{
+    font-size: 2rem;
+    line-height: 0.8rem
+    position: fixed;
+    top: 4rem;
+}
+
+span{
+
+    color: #ffffff;
+    font-size: 0.7rem;
+}
